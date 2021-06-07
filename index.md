@@ -204,7 +204,11 @@ Display the contact email address set in the configuration file.
 
 <p id="discord">
   <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.   
-  Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/C4cUZ95fbQ">link</a>  
+  Please install the Discord application on your laptol/computer. <br>
+  
+  <strong>Invite Link to the Discord server is <a href="https://discord.gg/C4cUZ95fbQ">here</a></strong>.  
+  <br>
+  <br>
 
   There are several channels that we will use:  
   <ul>
