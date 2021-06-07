@@ -32,7 +32,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Presentation</h2>
 
 {% comment %}
 INTRODUCTION
@@ -44,7 +44,7 @@ the pitch.
 {% include dc/intro3.html %}
 {% endif %}
 
-<h3 id="general">Who are we</h3>
+<strong id="general">Who are we</strong>
 
 {% if page.carpentry == "swc" %}
 {% include sc/intro.html %}
@@ -53,6 +53,9 @@ the pitch.
 {% elsif page.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+
+
+<h2 id="general">General Information</h2>
 
 {% comment %}
 AUDIENCE
@@ -147,28 +150,24 @@ special instructions.
 <br>
 </ul>
 
-<p id="discord">
-  <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.   
-  Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/C4cUZ95fbQ">link</a>  
 
-  There are several channels that we will use:  
-  <ul>
-    <li>The <strong>#general</strong> channel is used for general announcements about the workshop (links, coffee breaks, etc).</li>
-    <li>The <strong>#helpdesk</strong> is a text channel where participants can ask questions.</li>
-    <li>The <strong>helpdesk-1</strong> is a voice channel where participants can ask questions to helper number 1 through video. Additional video channels called <strong>helpdesk-2, -3, etc.</strong> are available depending on the number of helpers.</li>
-    <li>Teachers have two private channels, one for text called <strong>#teacher-chat</strong> and one for video called <strong>teacher-coffee-room</strong>.</li>
-  </ul>
+{% comment %}
+SCHEDULE
 
-  <br>
+Show the workshop's schedule.  Edit the items and times in the table
+to match your plans.  You may also want to change 'Day 1' and 'Day
+2' to be actual dates or days of the week.
+{% endcomment %}
 
-  <img src="assets/img/discord_screenshot.png" width="800px">
+<h2 id="schedule">Schedule</h2>
 
-  <br>
-  <br>
-
-<iframe src="https://discord.com/widget?id=808365000833237022&theme=dark" width="700" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
-</p>
+{% if page.carpentry == "swc" %}
+{% include sc/schedule.html %}
+{% elsif page.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif page.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% endif %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -201,6 +200,34 @@ Display the contact email address set in the configuration file.
 </p>
 
 
+<h2> Discord for technical assistance during the course</h2>
+
+<p id="discord">
+  <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.   
+  Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/C4cUZ95fbQ">link</a>  
+
+  There are several channels that we will use:  
+  <ul>
+    <li>The <strong>#general</strong> channel is used for general announcements about the workshop (links, coffee breaks, etc).</li>
+    <li>The <strong>#helpdesk</strong> is a text channel where participants can ask questions.</li>
+    <li>The <strong>helpdesk-1</strong> is a voice channel where participants can ask questions to helper number 1 through video. Additional video channels called <strong>helpdesk-2, -3, etc.</strong> are available depending on the number of helpers.</li>
+    <li>Teachers have two private channels, one for text called <strong>#teacher-chat</strong> and one for video called <strong>teacher-coffee-room</strong>.</li>
+  </ul>
+
+  <br>
+
+  <img src="assets/img/discord_screenshot.png" width="800px">
+
+  <br>
+  <br>
+
+<iframe src="https://discord.com/widget?id=808365000833237022&theme=dark" width="700" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+</p>
+
+
+
+
 {% comment %}
 <hr/>
 
@@ -224,22 +251,8 @@ SURVEYS - DO NO EDIT SURVEY LINKS
 <br>
 <hr/>
 <br>
-{% comment %}
-SCHEDULE
 
-Show the workshop's schedule.  Edit the items and times in the table
-to match your plans.  You may also want to change 'Day 1' and 'Day
-2' to be actual dates or days of the week.
-{% endcomment %}
-<h2 id="schedule">Schedule</h2>
 
-{% if page.carpentry == "swc" %}
-{% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
 
 {% comment %}
 Collaborative Notes
@@ -257,9 +270,7 @@ e.g., '2015-06-10-esu'.
 </p>
 {% endif %}
 
-<br>
 <hr/>
-<br>
 
 {% comment %}
 SYLLABUS
