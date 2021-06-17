@@ -464,7 +464,7 @@ please preview your site before committing, and make sure to run
       <li role="presentation"><a data-os="linux" href="#git-linux" aria-controls="Linux" role="tab" data-toggle="tab">Linux</a></li>
     </ul>
 
-      <article role="tabpanel" class="tab-pane active" id="shell-windows">
+      <article role="tabpanel" class="tab-pane active" id="git-windows">
         <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
         <ol>
           <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
