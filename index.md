@@ -333,7 +333,7 @@ please preview your site before committing, and make sure to run
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-{% comment %}
+
   <h3>The Bash Shell</h3>
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
@@ -434,7 +434,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-{% endcomment %}
+
 <br>
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
