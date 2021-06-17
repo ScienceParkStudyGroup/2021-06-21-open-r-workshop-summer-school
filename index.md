@@ -140,7 +140,7 @@ special instructions.
 
 
 <p id="helpers">
-  <strong>Helpers:</strong> Experts helping in the room.:
+  <strong>Helpers:</strong> Experts helping in the room:
 </p>
 <ul>
   <li>Monday 21 June from 9:30 to 13:00: Tijs</li>
