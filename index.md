@@ -146,7 +146,7 @@ special instructions.
   <li>Monday 21 June from 9:30 to 13:00: Tijs</li>
   <li>Monday 21 June from 14:00 to 17:00: Stacy</li>
   <li>Tuesday 22 June from 9:30 to 13:00: Martina Ferraguti</li>
-  <li>Tuesday 22 June from 14:00 to 17:00: Marc</li>
+  <li>Tuesday 22 June from 14:00 to 17:00: Johannes</li>
 <br>
 </ul>
 
